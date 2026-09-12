@@ -1,0 +1,10 @@
+# package	classification	notes
+# Allowed classifications: KEEP, SAFE_DISABLE, OPTIONAL_DISABLE, DO_NOT_TOUCH, UNKNOWN
+# Populate this file only after reviewing the actual device inventory.
+# No package is disabled by default.
+
+com.google.android.gms	KEEP	Google Play Services - preserve by default
+com.android.vending	KEEP	Google Play Store - preserve by default
+com.android.systemui	DO_NOT_TOUCH	Core System UI
+com.google.android.apps.tv.launcherx	KEEP	Stock Google TV launcher; keep enabled during SAFE phase
+com.spocky.projengmenu	KEEP	Projectivy Launcher
